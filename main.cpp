@@ -28,7 +28,7 @@ printf("[c]=");
 scanf("%f",&c);
 
 
-float delta = pow(b,2)-4*a*c;
+float delta = pow(b,2)-4*a*c;                // calcula o delta
 printf("o delta é : %0.2f\n\n", delta);
 
 
@@ -40,7 +40,7 @@ if (a !=0 )
   if (delta == 0)
   {
     printf("\nRaiz única\n");
-    raizUnica = -b/(2*a);
+    raizUnica = -b/(2*a);                     //calcula a raiz única
     printf("A raiz é %0.2f", raizUnica);
   }
   if(delta > 0)
